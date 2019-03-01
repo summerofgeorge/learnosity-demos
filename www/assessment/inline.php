@@ -26,6 +26,7 @@ $request = [
     'type' => 'submit_practice',
     'session_id' => Uuid::generate(),
     'user_id' => 'demos-site',
+    'organisation_id' => 505,
     'items' => [
         'inline_demo_q1',
         'inline_demo_q2',
