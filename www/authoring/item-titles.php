@@ -23,7 +23,7 @@ $security = [
 //simple api request object for item list view
 $request = [
     'mode'      => 'item_list',
-    'organisation_id' => '505', // Items are coming from a Learnosity Read-Only Org
+    'organisation_id' => $read_only_organisation_id, // Items are coming from a Learnosity Read-Only Org
     'config'    => [
         'item_list' => [
             'item' => [

@@ -24,6 +24,7 @@ $request = [
     'activity_id' => 'itemadaptivedemo',
     'name' => 'Items API - Item Adaptive activity',
     'rendering_type' => 'assess',
+    'organisation_id' => $read_only_organisation_id, // Items are coming from a Learnosity Read-Only Org
     'session_id' => $sessionId,
     'user_id' => 'demos-site',
     'adaptive' => [

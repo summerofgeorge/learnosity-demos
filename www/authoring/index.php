@@ -173,6 +173,22 @@ include_once 'includes/header.php';
                 </div>
             </div>
         </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title">Using author & teacher friendly titles</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p>Rather than using unique item identifiers, hide these from your end-user with user-friendly, editable titles.</p>
+                        <p class="text-right">
+                            <a class="demo_link"  href="./item-titles.php">Demo</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="section index">
 

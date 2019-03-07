@@ -43,6 +43,15 @@ $url_questioneditor        = 'https://questioneditor-va.learnosity.com/?' . $lts
 $url_questions             = 'https://questions-va.learnosity.com/?' . $lts_version;
 $url_reports               = 'https://reports-va.learnosity.com/?' . $lts_version;
 
+
+
+/* This is a an organisation_id for a read_only item bank.
+** The purpose here is to showcase demos where static content is important.
+** For loading from your primary organisation, you won't need this, and it can be removed.
+*/
+
+$read_only_organisation_id = 505;
+
 /**
  * Allow override file to replace config options
  **/
