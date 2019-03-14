@@ -47,7 +47,8 @@
 					'mode' => [
 						'default' => 'preview',
 						'show' => false
-					]
+					],
+                    'save' => false
 				],
 				'widget' => [
 					'delete' => false,
