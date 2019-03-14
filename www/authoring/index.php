@@ -256,6 +256,22 @@ include_once 'includes/header.php';
             </div>
         </div>
 
+        <div class="row">
+            <div class="col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title">Edit and Preview Questions Side by Side</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p>See previews of your question edits in real time, and switch to toggle-mode on smaller screens.</p>
+                        <p class="text-right">
+                            <a class="demo_link"  href="./edit_preview.php">Demo</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
     <div class="section index">
 
