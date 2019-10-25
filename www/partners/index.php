@@ -40,7 +40,7 @@ include_once 'includes/header.php';
                     </div>
                     <div class="panel-body">
                         <p>Desmos create best-in-class digital math tools. Through the Desmos and Learnosity partnership, 
-                        Learnosity clients can leverage graphing and scientific calculators.</p>
+                        Learnosity clients can leverage graphing, scientific, and four function calculators.</p>
                         <p class="text-right">
                             <a class="demo_link" href="./desmos.php">Demo</a>
                         </p>
