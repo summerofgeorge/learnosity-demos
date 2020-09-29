@@ -43,12 +43,13 @@ $request = [
             ]
         ]
     ],
-    'user' => [
-        'id' => 'demos-site',
-        'firstname' => 'Demos',
-        'lastname' => 'User',
-        'email' => 'demos@learnosity.com'
-    ]
+    'user' => array(
+        'id'        => 'urn:pearson:elm:user:1000176', // Pearson Core user, gives access denied error
+        "firstname"=>"Victoria","lastname"=>"Stewart","email"=>"victoria.stewart@pearson.com"
+        // 'id'        => 'allain.dollete@gmail.com' // Learnosity test user, gives access denied error
+        // 'id'        => 'neil.mcgough@learnosity.com' // Saves this item with no issue
+        // 'id'        => 'allain.dollete@learnosity.com' // Saves this item with no issue
+    )
 ];
 
 $Init = new Init('author', $security, $consumer_secret, $request);
