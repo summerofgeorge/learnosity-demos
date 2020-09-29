@@ -14,15 +14,23 @@ use LearnositySdk\Request\Init;
 
 
 //security object. timestamp added by SDK
-$security = [
-    'consumer_key' => $consumer_key,
-    'domain' => $domain
-];
+// ---------------------------------------------------------------------------------------------
+// Hack Day
+  $consumer_key = "PXwoevusXUXSDOOz";
+  $consumer_secret = "Zd4KC0cgjzCgadUoWdcwz04JdY2QSVZCOwA3AtmN";
+// ---------------------------------------------------------------------------------------------
+$security = array(
+    "consumer_key"  => $consumer_key,
+    "domain"        => $domain
+);
+// ---------------------------------------------------------------------------------------------
 
 
 //simple api request object for item list view
 $request = [
-    'mode' => 'item_list',
+    "organisation_id" => 1,
+    'mode'      => 'item_edit',
+    "reference" => "9ff13244-089a-4191-9d52-5f8a9b030490",
     'config' => [
         'item_edit' => [
             'item' => [
@@ -71,7 +79,7 @@ $signedRequest = $Init->generate();
 
 
     <!-- version of api maintained in lrn_config.php file -->
-    <script src="<?php echo $url_authorapi; ?>"></script>
+    <script src="https://authorapi-va.learnosity.com?v2020.2.LTS"></script>
     <script>
         var initializationObject = <?php echo $signedRequest; ?>;
 
