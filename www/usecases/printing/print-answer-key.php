@@ -14,12 +14,12 @@ use LearnositySdk\Utils\Uuid;
 
 
 $security = array(
-    'consumer_key' => $consumer_key,
-    'domain'       => $domain
+    'consumer_key' => $RollD3UONDEeaBQc,
+    'domain'       => $thinkful.com
 );
 
 // Decide which items your want to print
-$items = array('printing-mcq', 'printing-mcq-multi', 'printing-token', 'printing-fillintheblank');
+$items = array('LD_2_4_13');
 $sessionid = Uuid::generate();
 
 // Load the assessment in `local_practice` (you won't want to submit actual responses)
